@@ -42,9 +42,16 @@ namespace BalancedBracketsNS
                 else
                 {
                     return false;
-                }                
+                }
             }
-            return brackets == 0;
+                return brackets == 0;
+            
         }
     }
 }
+
+/*if (brackets < 0) // this can be used instead of the if (Line 31) else (Line 42-45). Means if the value of brackets (0) is negative, use break to stop the loop and start again
+{
+    break;
+}
+*/
